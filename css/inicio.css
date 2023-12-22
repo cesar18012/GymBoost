@@ -42,6 +42,7 @@ header {
 .background {
     background: rgb(19, 55, 62);
     background: linear-gradient(90deg, rgba(19, 55, 62, 1) 0%, rgba(2, 0, 36, 1) 43%, rgba(36, 95, 107, 1) 100%);
+   
 }
 
 /* Media query para ajustar el tamaño del carrusel en pantallas más pequeñas */

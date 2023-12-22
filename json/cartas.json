@@ -1,0 +1,23 @@
+[
+    {
+        "imgSrc": "/img/protefresa.png",
+        "cardTitle": "Proteína de Fresa",
+        "cardText": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "buttonText": "Añadir a la cesta",
+        "cardFooter": "GYMBOOST &#128170"
+    },
+    {
+        "imgSrc": "/img/barritabrownie.png",
+        "cardTitle": "Barrita de Brownie",
+        "cardText": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "buttonText": "Añadir a la cesta",
+        "cardFooter": "GYMBOOST &#128170"
+    },
+    {
+        "imgSrc": "/img/creatinacreapure.png",
+        "cardTitle": "Creatina Creapure",
+        "cardText": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "buttonText": "Añadir a la cesta",
+        "cardFooter": "GYMBOOST &#128170"
+    }
+]
