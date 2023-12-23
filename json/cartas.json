@@ -1,6 +1,7 @@
 [
     {
         "imgSrc": "/img/protefresa.png",
+        "imgSrcSmall": "/img/protefresasmall.png",
         "cardTitle": "Proteína de Fresa",
         "cardText": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "buttonText": "Añadir a la cesta",
@@ -8,6 +9,7 @@
     },
     {
         "imgSrc": "/img/barritabrownie.png",
+        "imgSrcSmall": "/img/barritabrowniesmall.png",
         "cardTitle": "Barrita de Brownie",
         "cardText": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "buttonText": "Añadir a la cesta",
@@ -15,6 +17,7 @@
     },
     {
         "imgSrc": "/img/creatinacreapure.png",
+        "imgSrcSmall": "/img/creatinacreapuresmall.png",
         "cardTitle": "Creatina Creapure",
         "cardText": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "buttonText": "Añadir a la cesta",

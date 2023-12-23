@@ -1,32 +1,55 @@
-// Obtener el contenedor de cartas
-var cartasContainer = document.getElementById("cartas-container");
+document.addEventListener('DOMContentLoaded', function () {
+    var cartasContainer = document.getElementById("row1");
 
-// Cargar y parsear el archivo JSON
-fetch('D:/Repo/GymBoost/json/cartas.json')
-    .then(response => response.json())
-    .then(cartas => {
-        // Crear y agregar dinámicamente las cartas al contenedor
-        cartas.forEach(function (carta) {
-            var cartaHtml = `
-                <div class="col-lg-4 col-md-12">
-                    <div class="card text-center border border-primary shadow-0">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="${carta.imgSrc}" class="img-fluid" />
-                            <a href="#!">
-                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">${carta.cardTitle}</h5>
-                            <p class="card-text">${carta.cardText}</p>
-                            <button type="button" class="btn btn-primary">${carta.buttonText}</button>
-                        </div>
-                        <div class="card-footer">${carta.cardFooter}</div>
-                    </div>
-                </div>`;
+    function obtenerRutaImagen(anchoVentana, carta) {
+        // Utilizar la imagen pequeña si el ancho de la ventana es menor a 768
+        return anchoVentana < 768 ? carta.imgSrcSmall : carta.imgSrc;
+    }
 
-            // Agregar la carta al contenedor
-            cartasContainer.innerHTML += cartaHtml;
-        });
-    })
-    .catch(error => console.error('Error al cargar el archivo JSON:', error));
+    function cargarCartas() {
+        // Limpiar el contenedor antes de volver a cargar las cartas
+        cartasContainer.innerHTML = '';
+
+        // Obtener el ancho actual de la ventana
+        var anchoVentana = window.innerWidth;
+
+        fetch('../json/cartas.json')
+            .then(response => response.json())
+            .then(cartas => {
+                cartas.forEach(function (carta) {
+                    // Obtener la ruta de la imagen según el ancho de la ventana
+                    var rutaImagen = obtenerRutaImagen(anchoVentana, carta);
+
+                    var cartaHtml = `
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card text-center border border-primary shadow-0">
+                                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                    <img src="${rutaImagen}" class="img-fluid" />
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">${carta.cardTitle}</h5>
+                                    <p class="card-text">${carta.cardText}</p>
+                                    <button type="button" class="btn btn-primary">${carta.buttonText}</button>
+                                </div>
+                                <div class="card-footer">${carta.cardFooter}</div>
+                            </div>
+                        </div>`;
+
+                    cartasContainer.innerHTML += cartaHtml;
+                });
+            })
+            .catch(error => console.error('Error al cargar el archivo JSON:', error));
+    }
+
+    // Cargar las cartas al iniciar
+    cargarCartas();
+
+    // Escuchar cambios en el tamaño de la ventana
+    window.addEventListener('resize', function () {
+        // Recargar las cartas con las nuevas imágenes
+        cargarCartas();
+    });
+});
