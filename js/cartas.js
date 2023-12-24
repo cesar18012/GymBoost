@@ -1,5 +1,21 @@
 document.addEventListener('DOMContentLoaded', function () {
     var cartasContainer = document.getElementById("row1");
+    var carruselContainer = document.querySelector('.carousel-inner');
+
+    function cargarCarrusel() {
+        fetch('../json/imgcarrusel.json')
+            .then(response => response.json())
+            .then(carrusel => {
+                carrusel.forEach(function (img, index) {
+                    var carruselHTML = `
+                        <div class="carousel-item ${index === 0 ? 'active' : ''}">
+                            <img src="${img.imgSrc}" class="d-block w-100" alt="...">
+                        </div>`;
+                    carruselContainer.innerHTML += carruselHTML;
+                });
+            })
+            .catch(error => console.error('Error al cargar el archivo JSON:', error));
+    }
 
     function obtenerRutaImagen(anchoVentana, carta) {
         // Utilizar la imagen pequeña si el ancho de la ventana es menor a 768
@@ -46,6 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Cargar las cartas al iniciar
     cargarCartas();
+    cargarCarrusel();
 
     // Escuchar cambios en el tamaño de la ventana
     window.addEventListener('resize', function () {
