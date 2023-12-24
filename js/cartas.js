@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .catch(error => console.error('Error al cargar el archivo JSON:', error));
     }
 
-    // Cargar las cartas al iniciar
+    // Cargar las funciones
     cargarCartas();
     cargarCarrusel();
 

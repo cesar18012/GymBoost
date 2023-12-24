@@ -1,23 +1,23 @@
 [
     {
-        "imgSrc": "/img/protefresa.png",
-        "imgSrcSmall": "/img/protefresasmall.png",
+        "imgSrc": "/img/cartas/protefresa.png",
+        "imgSrcSmall": "/img/cartas/protefresasmall.png",
         "cardTitle": "Proteína de Fresa",
         "cardText": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "buttonText": "Añadir a la cesta",
         "cardFooter": "GYMBOOST &#128170"
     },
     {
-        "imgSrc": "/img/barritabrownie.png",
-        "imgSrcSmall": "/img/barritabrowniesmall.png",
+        "imgSrc": "/img/cartas/barritabrownie.png",
+        "imgSrcSmall": "/img/cartas/barritabrowniesmall.png",
         "cardTitle": "Barrita de Brownie",
         "cardText": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "buttonText": "Añadir a la cesta",
         "cardFooter": "GYMBOOST &#128170"
     },
     {
-        "imgSrc": "/img/creatinacreapure.png",
-        "imgSrcSmall": "/img/creatinacreapuresmall.png",
+        "imgSrc": "/img/cartas/creatinacreapure.png",
+        "imgSrcSmall": "/img/cartas/creatinacreapuresmall.png",
         "cardTitle": "Creatina Creapure",
         "cardText": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "buttonText": "Añadir a la cesta",
