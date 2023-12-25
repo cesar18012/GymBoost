@@ -1,20 +1,24 @@
-document.addEventListener('DOMContentLoaded', function () {
-    var cartasContainer = document.getElementById("row1");
-    var carruselContainer = document.querySelector('.carousel-inner');
+$(document).ready(function () {
+    var cartasContainer = $("#row1");
+    var carruselContainer = $('.carousel-inner');
 
     function cargarCarrusel() {
-        fetch('../json/imgcarrusel.json')
-            .then(response => response.json())
-            .then(carrusel => {
-                carrusel.forEach(function (img, index) {
+        $.ajax({
+            url: '../json/imgcarrusel.json',
+            dataType: 'json',
+            success: function (carrusel) {
+                $.each(carrusel, function (index, img) {
                     var carruselHTML = `
                         <div class="carousel-item ${index === 0 ? 'active' : ''}">
                             <img src="${img.imgSrc}" class="d-block w-100" alt="...">
                         </div>`;
-                    carruselContainer.innerHTML += carruselHTML;
+                    carruselContainer.append(carruselHTML);
                 });
-            })
-            .catch(error => console.error('Error al cargar el archivo JSON:', error));
+            },
+            error: function (error) {
+                console.error('Error al cargar el archivo JSON:', error);
+            }
+        });
     }
 
     function obtenerRutaImagen(anchoVentana, carta) {
@@ -24,15 +28,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function cargarCartas() {
         // Limpiar el contenedor antes de volver a cargar las cartas
-        cartasContainer.innerHTML = '';
+        cartasContainer.empty();
 
         // Obtener el ancho actual de la ventana
-        var anchoVentana = window.innerWidth;
+        var anchoVentana = $(window).width();
 
-        fetch('../json/cartas.json')
-            .then(response => response.json())
-            .then(cartas => {
-                cartas.forEach(function (carta) {
+        $.ajax({
+            url: '../json/cartas.json',
+            dataType: 'json',
+            success: function (cartas) {
+                $.each(cartas, function (index, carta) {
                     // Obtener la ruta de la imagen según el ancho de la ventana
                     var rutaImagen = obtenerRutaImagen(anchoVentana, carta);
 
@@ -54,10 +59,13 @@ document.addEventListener('DOMContentLoaded', function () {
                             </div>
                         </div>`;
 
-                    cartasContainer.innerHTML += cartaHtml;
+                    cartasContainer.append(cartaHtml);
                 });
-            })
-            .catch(error => console.error('Error al cargar el archivo JSON:', error));
+            },
+            error: function (error) {
+                console.error('Error al cargar el archivo JSON:', error);
+            }
+        });
     }
 
     // Cargar las funciones
@@ -65,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
     cargarCarrusel();
 
     // Escuchar cambios en el tamaño de la ventana
-    window.addEventListener('resize', function () {
+    $(window).resize(function () {
         // Recargar las cartas con las nuevas imágenes
         cargarCartas();
     });
