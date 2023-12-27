@@ -1,0 +1,23 @@
+[
+    {
+      "imagen": "/img/proteina/impact1.png",
+      "nombre": "Whey Protein",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    {
+      "imagen": "/img/proteina/isolate1.png",
+      "nombre": "Whey Isolate",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    {
+      "imagen": "/img/proteina/isolate1.png",
+      "nombre": "Whey Isolate",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    {
+      "imagen": "/img/proteina/isolate1.png",
+      "nombre": "Whey Isolate",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }
+  ]
+  
