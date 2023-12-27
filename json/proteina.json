@@ -8,7 +8,7 @@
     {
       "id": "Isolate",
       "imagen": "/img/proteina/isolate1.png",
-      "nombre": "Whey Isolate",
+      "nombre": "Whey Isolate Coco",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
@@ -20,7 +20,7 @@
     {
       "id": "Isolate",
       "imagen": "/img/proteina/isolate1.png",
-      "nombre": "Whey Isolate",
+      "nombre": "Whey Isolate Piña",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     }
   ]
