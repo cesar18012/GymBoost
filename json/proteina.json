@@ -1,23 +1,26 @@
 [
     {
+      "id": "Whey",
       "imagen": "/img/proteina/impact1.png",
       "nombre": "Whey Protein",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
+      "id": "Isolate",
       "imagen": "/img/proteina/isolate1.png",
       "nombre": "Whey Isolate",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
+      "id": "Isolate",
       "imagen": "/img/proteina/isolate1.png",
-      "nombre": "Whey Isolate",
+      "nombre": "Whey Isolate Fresa",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
+      "id": "Isolate",
       "imagen": "/img/proteina/isolate1.png",
       "nombre": "Whey Isolate",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     }
   ]
-  
