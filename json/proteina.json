@@ -1,30 +1,50 @@
 [
-    {
-      "id": "Whey",
-      "imagen": "/img/proteina/impact1.png",
-      "imagesmall":"/img/proteina/impact1small.png",
-      "nombre": "Whey Protein ",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    },
-    {
-      "id": "Isolate",
-      "imagen": "/img/proteina/isolate1.png",
-      "imagesmall":"/img/proteina/isolate1small.png",
-      "nombre": "Whey Isolate coco",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    },
-    {
-      "id": "Isolate",
-      "imagen": "/img/proteina/isolate1.png",
-      "imagesmall":"/img/proteina/isolate1small.png",
-      "nombre": "Whey Isolate Fresa",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    },
-    {
-      "id": "Isolate",
-      "imagen": "/img/proteina/isolate1.png",
-      "imagesmall":"/img/proteina/isolate1small.png",
-      "nombre": "Whey Isolate Piña",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    }
-  ]
+  {
+    "id": "Impact",
+    "imagen": "/img/proteina/impact1.png",
+    "imagesmall": "/img/proteina/impact1small.png",
+    "nombre": "Whey Protein ",
+    "descripcion": "Una proteína en polvo sin igual.",
+    "boton": "Agregar al carrito"
+  },
+  {
+    "id": "Impact",
+    "imagen": "/img/proteina/impact2.png",
+    "imagesmall": "/img/proteina/impact2small.png",
+    "nombre": "Gainer Protein ",
+    "descripcion": "La mejor forma de aumentar tu fuerza y volumen.",
+    "boton": "Agregar al carrito"
+  },
+  {
+    "id": "Impact",
+    "imagen": "/img/proteina/impact3.png",
+    "imagesmall": "/img/proteina/impact3small.png",
+    "nombre": "Gainer Muestra ",
+    "descripcion": "La mejor manera de probar todos nuestros sabores",
+    "boton": "Agregar al carrito"
+  },
+  {
+    "id": "Isolate",
+    "imagen": "/img/proteina/isolate1.png",
+    "imagesmall": "/img/proteina/isolate1small.png",
+    "nombre": "Whey Isolate",
+    "descripcion": "Una proteína en polvo sin igual.",
+    "boton": "Agregar al carrito"
+  },
+  {
+    "id": "Isolate",
+    "imagen": "/img/proteina/isolate3.png",
+    "imagesmall": "/img/proteina/isolate3small.png",
+    "nombre": "Caja Isolate",
+    "descripcion": "Muestras de nuestras Isolate.",
+    "boton": "Agregar al carrito"
+  },
+  {
+    "id": "Isolate",
+    "imagen": "/img/proteina/isolate2.png",
+    "imagesmall": "/img/proteina/isolate2small.png",
+    "nombre": "Isolate Peach Tea",
+    "descripcion": "Galardonada, deliciosa y ligera.",
+    "boton": "Agregar al carrito"
+  }
+]
