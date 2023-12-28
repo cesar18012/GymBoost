@@ -7,7 +7,7 @@ $(document).ready(function() {
 
     // Llenar el menú desplegable con opciones dinámicamente
     $.each(uniqueProducts, function(index, producto) {
-      $('#dropdownMenuLink').append(`<option value="${producto.id}">${producto.nombre}</option>`);
+      $('#dropdownMenuLink').append(`<option value="${producto.id}">${producto.id}</option>`);
     });
 
     // Manejar el cambio en el menú desplegable
@@ -23,11 +23,13 @@ $(document).ready(function() {
 
       // Construir y agregar las cartas de los productos seleccionados
       $.each(selectedProducts, function(index, selectedProduct) {
+        var imageSrc = $(window).width() < 768 ? selectedProduct.imagesmall : selectedProduct.imagen;
+
         var cardHtml = `
           <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
             <div class="card rounded shadow-sm border-3">
               <div class="card-body p-4">
-                <img src="${selectedProduct.imagen}" alt="" class="img-fluid d-block mx-auto mb-3">
+                <img src="${imageSrc}" alt="" class="img-fluid d-block mx-auto mb-3">
                 <h5><a href="#" class="text-dark">${selectedProduct.nombre}</a></h5>
                 <p class="small text-muted font-italic">${selectedProduct.descripcion}</p>
               </div>

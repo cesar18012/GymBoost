@@ -2,24 +2,28 @@
     {
       "id": "Whey",
       "imagen": "/img/proteina/impact1.png",
-      "nombre": "Whey Protein",
+      "imagesmall":"/img/proteina/impact1small.png",
+      "nombre": "Whey Protein ",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
       "id": "Isolate",
       "imagen": "/img/proteina/isolate1.png",
-      "nombre": "Whey Isolate Coco",
+      "imagesmall":"/img/proteina/isolate1small.png",
+      "nombre": "Whey Isolate coco",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
       "id": "Isolate",
       "imagen": "/img/proteina/isolate1.png",
+      "imagesmall":"/img/proteina/isolate1small.png",
       "nombre": "Whey Isolate Fresa",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
       "id": "Isolate",
       "imagen": "/img/proteina/isolate1.png",
+      "imagesmall":"/img/proteina/isolate1small.png",
       "nombre": "Whey Isolate Piña",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     }
