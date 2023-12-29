@@ -3,48 +3,54 @@
     "id": "Impact",
     "imagen": "/img/proteina/impact1.png",
     "imagesmall": "/img/proteina/impact1small.png",
-    "nombre": "Whey Protein ",
+    "cardTitle": "Whey Protein ",
     "descripcion": "Una proteína en polvo sin igual.",
-    "boton": "Agregar al carrito"
+    "boton": "Agregar al carrito",
+    "precio":"10"
   },
   {
     "id": "Impact",
     "imagen": "/img/proteina/impact2.png",
     "imagesmall": "/img/proteina/impact2small.png",
-    "nombre": "Gainer Protein ",
+    "cardTitle": "Gainer Protein ",
     "descripcion": "La mejor forma de aumentar tu fuerza y volumen.",
-    "boton": "Agregar al carrito"
+    "boton": "Agregar al carrito",
+    "precio":"10"
   },
   {
     "id": "Impact",
     "imagen": "/img/proteina/impact3.png",
     "imagesmall": "/img/proteina/impact3small.png",
-    "nombre": "Gainer Muestra ",
+    "cardTitle": "Gainer Muestra ",
     "descripcion": "La mejor manera de probar todos nuestros sabores",
-    "boton": "Agregar al carrito"
+    "boton": "Agregar al carrito",
+    "precio":"10"
   },
   {
     "id": "Isolate",
     "imagen": "/img/proteina/isolate1.png",
     "imagesmall": "/img/proteina/isolate1small.png",
-    "nombre": "Whey Isolate",
+    "cardTitle": "Whey Isolate",
     "descripcion": "Una proteína en polvo sin igual.",
-    "boton": "Agregar al carrito"
+    "boton": "Agregar al carrito",
+    "precio":"10"
   },
   {
     "id": "Isolate",
     "imagen": "/img/proteina/isolate3.png",
     "imagesmall": "/img/proteina/isolate3small.png",
-    "nombre": "Caja Isolate",
+    "cardTitle": "Caja Isolate",
     "descripcion": "Muestras de nuestras Isolate.",
-    "boton": "Agregar al carrito"
+    "boton": "Agregar al carrito",
+    "precio":"10"
   },
   {
     "id": "Isolate",
     "imagen": "/img/proteina/isolate2.png",
     "imagesmall": "/img/proteina/isolate2small.png",
-    "nombre": "Isolate Peach Tea",
+    "cardTitle": "Isolate Peach Tea",
     "descripcion": "Galardonada, deliciosa y ligera.",
-    "boton": "Agregar al carrito"
+    "boton": "Agregar al carrito",
+    "precio":"10"
   }
 ]
