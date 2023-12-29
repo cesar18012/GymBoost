@@ -12,7 +12,7 @@ $(document).ready(function () {
         $.each(carrito, function (index, producto) {
             var productoHtml = `
                 <div class="producto-en-carrito">
-                    <p>${producto.cardTitle} Precio: $${producto.precio}</p>
+                    <p>${producto.cardTitle} - ${producto.cardTitle} - Precio: $${producto.precio}</p>
                     <button class="btn btn-danger eliminar-del-carrito" data-id="${index}">Eliminar</button>
                 </div>`;
             carritoContainer.append(productoHtml);

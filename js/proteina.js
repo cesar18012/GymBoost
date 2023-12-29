@@ -50,27 +50,38 @@ $(document).ready(function () {
   });
 
   // Función de renderizado que toma una lista de productos y los muestra en la página
-  function renderizarProductos(productos) {
-    $.each(productos, function (index, product) {
-      var imageSrc = $(window).width() < 768 ? product.imagesmall : product.imagen;
+  // Función de renderizado que toma una lista de productos y los muestra en la página
+function renderizarProductos(productos) {
+  $.each(productos, function (index, product) {
+    // Utilizar clases de Bootstrap para la responsividad de la imagen
+    var imageClasses = "img-fluid d-block mx-auto mb-3";
+    
+    // Obtener la ruta de la imagen según el ancho de la ventana
+    var imageSrc = $(window).width() < 768 ? product.imagesmall : product.imagen;
+    
+    // Si la pantalla es pequeña, agregar clase adicional para imágenes pequeñas
+    if ($(window).width() < 768) {
+      imageClasses += " img-small";
+    }
 
-      var cardHtml = `
-        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-          <div class="card rounded shadow-sm border-3">
-            <div class="card-body p-4">
-              <img src="${imageSrc}" alt="" class="img-fluid d-block mx-auto mb-3">
-              <h5><a href="#" class="text-dark">${product.cardTitle}</a></h5>
-              <p class="small text-muted font-italic">${product.descripcion}</p>
-              <button class="btn btn-primary btn-add-to-cart" data-id="${product.id}">Añadir al carrito</button>
-            </div>
+    var cardHtml = `
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <div class="card rounded shadow-sm border-3">
+          <div class="card-body p-4">
+            <img src="${imageSrc}" alt="" class="${imageClasses}">
+            <h5><a href="#" class="text-dark">${product.cardTitle}</a></h5>
+            <p class="small text-muted font-italic">${product.descripcion}</p>
+            <button class="btn btn-primary btn-add-to-cart" data-id="${product.id}">Añadir al carrito</button>
           </div>
         </div>
-      `;
+      </div>
+    `;
 
-      // Agregar la carta del producto al contenedor
-      $('#productos-container').append(cardHtml);
-    });
-  }
+    // Agregar la carta del producto al contenedor
+    $('#productos-container').append(cardHtml);
+  });
+}
+
 
   // Función para agregar un producto al carrito
   function agregarAlCarrito(producto) {
