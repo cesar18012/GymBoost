@@ -1,7 +1,7 @@
 [
   {
     "id": "Impact",
-    "imagen": "/img/proteina/impact1.png",
+    "imagen": "/img/proteina/impact/impact1.png",
     "imagesmall": "/img/proteina/impact1small.png",
     "cardTitle": "Whey Protein ",
     "descripcion": "Una proteína en polvo sin igual.",
@@ -10,7 +10,7 @@
   },
   {
     "id": "Impact",
-    "imagen": "/img/proteina/impact2.png",
+    "imagen": "/img/proteina/impact/impact2.png",
     "imagesmall": "/img/proteina/impact2small.png",
     "cardTitle": "Gainer Protein ",
     "descripcion": "La mejor forma de aumentar tu fuerza y volumen.",
@@ -19,7 +19,7 @@
   },
   {
     "id": "Impact",
-    "imagen": "/img/proteina/impact3.png",
+    "imagen": "/img/proteina/impact/impact3.png",
     "imagesmall": "/img/proteina/impact3small.png",
     "cardTitle": "Gainer Muestra ",
     "descripcion": "La mejor manera de probar todos nuestros sabores",
@@ -28,7 +28,7 @@
   },
   {
     "id": "Isolate",
-    "imagen": "/img/proteina/isolate1.png",
+    "imagen": "/img/proteina/isolate/isolate1.png",
     "imagesmall": "/img/proteina/isolate1small.png",
     "cardTitle": "Whey Isolate",
     "descripcion": "Una proteína en polvo sin igual.",
@@ -37,7 +37,7 @@
   },
   {
     "id": "Isolate",
-    "imagen": "/img/proteina/isolate3.png",
+    "imagen": "/img/proteina/isolate/isolate3.png",
     "imagesmall": "/img/proteina/isolate3small.png",
     "cardTitle": "Caja Isolate",
     "descripcion": "Muestras de nuestras Isolate.",
@@ -46,7 +46,7 @@
   },
   {
     "id": "Isolate",
-    "imagen": "/img/proteina/isolate2.png",
+    "imagen": "/img/proteina/isolate/isolate2.png",
     "imagesmall": "/img/proteina/isolate2small.png",
     "cardTitle": "Isolate Peach Tea",
     "descripcion": "Galardonada, deliciosa y ligera.",
@@ -55,7 +55,7 @@
   },
   {
     "id": "Vegan",
-    "imagen": "/img/proteina/vegan1.png",
+    "imagen": "/img/proteina/vegan/vegan1.png",
     "imagesmall": "/img/proteina/vegan1small.png",
     "cardTitle": "Green Superfood",
     "descripcion": "Mezcla vegetal de superalimentos.",
@@ -64,7 +64,7 @@
   },
   {
     "id": "Vegan",
-    "imagen": "/img/proteina/vegan2.png",
+    "imagen": "/img/proteina/vegan/vegan2.png",
     "imagesmall": "/img/proteina/vegan2small.png",
     "cardTitle": "Pea Protein",
     "descripcion": "Aislado de proteína de guisante.",
@@ -73,7 +73,7 @@
   },
   {
     "id": "Vegan",
-    "imagen": "/img/proteina/vegan3.png",
+    "imagen": "/img/proteina/vegan/vegan3.png",
     "imagesmall": "/img/proteina/vegan3small.png",
     "cardTitle": "Soy Protein",
     "descripcion": "Aislado de proteína de soja.",
