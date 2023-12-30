@@ -49,7 +49,7 @@ $(document).ready(function () {
                                 <h5 class="card-title">${carta.cardTitle}</h5>
                                 <p class="card-text">${carta.cardText}</p>
                                 <p class="card-text">Precio: $${carta.precio}</p>
-                                <button type="button" class="btn btn-primary agregar-al-carrito" data-id="${index}">
+                                <button type="button" class="btn btn-primary agregar-al-carrito" data-title="${carta.cardTitle}">
                                     ${carta.buttonText}
                                 </button>
                             </div>
@@ -62,8 +62,8 @@ $(document).ready(function () {
 
             // Manejar clic en el botón "Agregar al carrito"
             $('.agregar-al-carrito').on('click', function () {
-                var productId = $(this).data('id');
-                var selectedProduct = cartasData[productId];
+                var cardTitle = $(this).data('title');
+                var selectedProduct = cartasData.find(producto => producto.cardTitle === cardTitle);
                 agregarAlCarrito(selectedProduct);
             });
         }
@@ -73,17 +73,10 @@ $(document).ready(function () {
         var carrito = JSON.parse(localStorage.getItem('carrito')) || [];
         carrito.push(producto);
         localStorage.setItem('carrito', JSON.stringify(carrito));
-        actualizarCarrito();
+        
     }
 
-    function actualizarCarrito() {
-        // Llama a la función cargarCarrito para actualizar la visualización del carrito
-        cargarCarrito();
-    }
-
-    function cargarCarrito() {
-        // Lógica para cargar y mostrar el carrito (puedes implementarla según tus necesidades)
-    }
+ 
 
     // Cargar las funciones
     cargarCarrusel();

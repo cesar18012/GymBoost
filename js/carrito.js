@@ -10,15 +10,18 @@ $(document).ready(function () {
         var total = 0; // Variable para calcular el total del carrito
     
         $.each(carrito, function (index, producto) {
-            var productoHtml = `
-                <div class="producto-en-carrito">
-                    <p><img src="${producto.imagesmall}">  - ${producto.cardTitle} - Precio: $${producto.precio}</p>
-                    <button class="btn btn-danger eliminar-del-carrito" data-id="${index}">Eliminar</button>
-                </div>`;
-            carritoContainer.append(productoHtml);
+            // Check if producto is not null or undefined and has imagesmall property
+            if (producto && producto.imagesmall) {
+                var productoHtml = `
+                    <div class="producto-en-carrito">
+                        <p><img src="${producto.imagesmall}">  - ${producto.cardTitle} - Precio: $${producto.precio}</p>
+                        <button class="btn btn-danger eliminar-del-carrito" data-id="${index}">Eliminar</button>
+                    </div>`;
+                carritoContainer.append(productoHtml);
     
-            // Suma el precio del producto al total
-            total += parseFloat(producto.precio);
+                // Suma el precio del producto al total
+                total += parseFloat(producto.precio);
+            }
         });
     
         // Actualiza el total en la página
@@ -30,6 +33,7 @@ $(document).ready(function () {
             eliminarDelCarrito(productId);
         });
     }
+
     function eliminarDelCarrito(productId) {
         var carrito = JSON.parse(localStorage.getItem('carrito')) || [];
         
@@ -42,14 +46,9 @@ $(document).ready(function () {
         // Actualiza la visualización del carrito
         cargarCarrito();
     }
+
     // Cargar el carrito al cargar la página
     cargarCarrito();
 
-    // Resto de tu código aquí...
 
-    // Escuchar cambios en el tamaño de la ventana
-    $(window).resize(function () {
-        // Recargar las cartas con las nuevas imágenes
-        cargarCartas();
-    });
 });
