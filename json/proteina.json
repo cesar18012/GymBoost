@@ -52,5 +52,32 @@
     "descripcion": "Galardonada, deliciosa y ligera.",
     "boton": "Agregar al carrito",
     "precio":"10"
+  },
+  {
+    "id": "Vegan",
+    "imagen": "/img/proteina/vegan1.png",
+    "imagesmall": "/img/proteina/vegan1small.png",
+    "cardTitle": "Green Superfood",
+    "descripcion": "Mezcla vegetal de superalimentos.",
+    "boton": "Agregar al carrito",
+    "precio":"10"
+  },
+  {
+    "id": "Vegan",
+    "imagen": "/img/proteina/vegan2.png",
+    "imagesmall": "/img/proteina/vegan2small.png",
+    "cardTitle": "Pea Protein",
+    "descripcion": "Aislado de proteína de guisante.",
+    "boton": "Agregar al carrito",
+    "precio":"10"
+  },
+  {
+    "id": "Vegan",
+    "imagen": "/img/proteina/vegan3.png",
+    "imagesmall": "/img/proteina/vegan3small.png",
+    "cardTitle": "Soy Protein",
+    "descripcion": "Aislado de proteína de soja.",
+    "boton": "Agregar al carrito",
+    "precio":"10"
   }
 ]
