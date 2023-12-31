@@ -52,6 +52,33 @@
         "descripcion": "Una mezcla única de curcumina y vitamina D, para un práctico impulso diario.",
         "boton": "Agregar al carrito",
         "precio":"10$"
+    },
+    {
+        "id": "Vitamina Liquida",
+        "imagen": "/img/vitaminas/vitaliqui1.png",
+        "imagesmall": "/img/vitaminas/vitaliqui1small.png",
+        "cardTitle": "Monodosis Colágeno Líquido",
+        "descripcion": "Fórmula todo en uno con sabor a fruta con colágeno y vitaminas.",
+        "boton": "Agregar al carrito",
+        "precio":"10$"
+    },
+    {
+        "id": "Vitamina Liquida",
+        "imagen": "/img/vitaminas/vitaliqui2.png",
+        "imagesmall": "/img/vitaminas/vitaliqui2small.png",
+        "cardTitle": "Beauty Collagen Stick Packs",
+        "descripcion": "Una deliciosa dosis diaria de colágeno hidrolizado y vitaminas.",
+        "boton": "Agregar al carrito",
+        "precio":"10$"
+    },
+    {
+        "id": "Vitamina Liquida",
+        "imagen": "/img/vitaminas/vitaliqui3.png",
+        "imagesmall": "/img/vitaminas/vitaliqui3small.png",
+        "cardTitle": "Pre-Workout Shot",
+        "descripcion": "La alternativa a productos tradicionales para antes del entrenamiento.",
+        "boton": "Agregar al carrito",
+        "precio":"10$"
     }
   ]
   
