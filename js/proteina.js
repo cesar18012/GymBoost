@@ -70,6 +70,7 @@ $(document).ready(function () {
                           <img src="${imageSrc}" alt="" class="${imageClasses}">
                           <h5><a href="#" class="text-dark">${product.cardTitle}</a></h5>
                           <p class="small text-muted font-italic">${product.descripcion}</p>
+                          <p class="font-italic">Precio: ${product.precio}</p>
                           <button class="btn btn-primary btn-add-to-cart" data-title="${product.cardTitle}">Añadir al carrito</button>
                       </div>
                   </div>

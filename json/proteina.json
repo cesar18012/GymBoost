@@ -6,7 +6,7 @@
     "cardTitle": "Whey Protein ",
     "descripcion": "Una proteína en polvo sin igual.",
     "boton": "Agregar al carrito",
-    "precio":"10"
+    "precio":"10$"
   },
   {
     "id": "Impact",
@@ -15,7 +15,7 @@
     "cardTitle": "Gainer Protein ",
     "descripcion": "La mejor forma de aumentar tu fuerza y volumen.",
     "boton": "Agregar al carrito",
-    "precio":"10"
+    "precio":"10$"
   },
   {
     "id": "Impact",
@@ -24,7 +24,7 @@
     "cardTitle": "Gainer Muestra ",
     "descripcion": "La mejor manera de probar todos nuestros sabores",
     "boton": "Agregar al carrito",
-    "precio":"10"
+    "precio":"10$"
   },
   {
     "id": "Isolate",
@@ -33,7 +33,7 @@
     "cardTitle": "Whey Isolate",
     "descripcion": "Una proteína en polvo sin igual.",
     "boton": "Agregar al carrito",
-    "precio":"10"
+    "precio":"10$"
   },
   {
     "id": "Isolate",
@@ -42,7 +42,7 @@
     "cardTitle": "Caja Isolate",
     "descripcion": "Muestras de nuestras Isolate.",
     "boton": "Agregar al carrito",
-    "precio":"10"
+    "precio":"10$"
   },
   {
     "id": "Isolate",
@@ -51,7 +51,7 @@
     "cardTitle": "Isolate Peach Tea",
     "descripcion": "Galardonada, deliciosa y ligera.",
     "boton": "Agregar al carrito",
-    "precio":"10"
+    "precio":"10$"
   },
   {
     "id": "Vegan",
@@ -60,7 +60,7 @@
     "cardTitle": "Green Superfood",
     "descripcion": "Mezcla vegetal de superalimentos.",
     "boton": "Agregar al carrito",
-    "precio":"10"
+    "precio":"10$"
   },
   {
     "id": "Vegan",
@@ -69,7 +69,7 @@
     "cardTitle": "Pea Protein",
     "descripcion": "Aislado de proteína de guisante.",
     "boton": "Agregar al carrito",
-    "precio":"10"
+    "precio":"10$"
   },
   {
     "id": "Vegan",
@@ -78,6 +78,6 @@
     "cardTitle": "Soy Protein",
     "descripcion": "Aislado de proteína de soja.",
     "boton": "Agregar al carrito",
-    "precio":"10"
+    "precio":"10$"
   }
 ]
