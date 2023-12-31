@@ -25,6 +25,33 @@
         "descripcion": "Aquí empieza tu rutina detox diaria.",
         "boton": "Agregar al carrito",
         "precio":"10$"
+    },
+    {
+        "id": "Vitamina D",
+        "imagen": "/img/vitaminas/vitad1.png",
+        "imagesmall": "/img/vitaminas/vitad1small.png",
+        "cardTitle": "Gominolas de vitamina",
+        "descripcion": "Fuente de vitamina para contribuir al funcionamiento del sistema inmunitario.",
+        "boton": "Agregar al carrito",
+        "precio":"10$"
+    },
+    {
+        "id": "Vitamina D",
+        "imagen": "/img/vitaminas/vitad2.png",
+        "imagesmall": "/img/vitaminas/vitad2small.png",
+        "cardTitle": "Vitamina D3 en Cápsulas",
+        "descripcion": "La vitamina del sol para el bienestar diario, sin importar qué tiempo haga.",
+        "boton": "Agregar al carrito",
+        "precio":"10$"
+    },
+    {
+        "id": "Vitamina D",
+        "imagen": "/img/vitaminas/vitad3.png",
+        "imagesmall": "/img/vitaminas/vitad3small.png",
+        "cardTitle": "Vitamina D3 y Curcumina",
+        "descripcion": "Una mezcla única de curcumina y vitamina D, para un práctico impulso diario.",
+        "boton": "Agregar al carrito",
+        "precio":"10$"
     }
   ]
   
