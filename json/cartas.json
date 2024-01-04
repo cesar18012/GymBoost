@@ -6,7 +6,7 @@
         "cardText": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "buttonText": "Añadir a la cesta",
         "cardFooter": "GYMBOOST &#128170",
-        "precio":"10"
+        "precio":"40"
     },
     {
         "imagen": "/img/cartas/barritabrownie.png",
@@ -24,6 +24,6 @@
         "cardText": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "buttonText": "Añadir a la cesta",
         "cardFooter": "GYMBOOST &#128170",
-        "precio":"10"
+        "precio":"30"
     }
 ]

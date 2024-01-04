@@ -6,7 +6,7 @@
       "cardTitle": "Barrita proteica Layered",
       "descripcion": "Seis capas irresistibles de sabor y textura.",
       "boton": "Agregar al carrito",
-      "precio":"10$"
+      "precio":"15$"
     },
     {
         "id": "Snacks Proteicos",
@@ -15,7 +15,7 @@
         "cardTitle": "Barquillo Proteico",
         "descripcion": "El capricho lleno de proteína más ligero, ideal para cualquier momento del día.",
         "boton": "Agregar al carrito",
-        "precio":"10$"
+        "precio":"15$"
     },
     {
         "id": "Snacks Proteicos",
@@ -24,7 +24,7 @@
         "cardTitle": "Flapjack Proteica",
         "descripcion": "Un capricho de proteína dulce y suave, perfecto para tomar sobre la marcha.",
         "boton": "Agregar al carrito",
-        "precio":"10$"
+        "precio":"12$"
     },
     {
         "id": "Bebidas Proteicos",
@@ -42,7 +42,7 @@
         "cardTitle": "Agua con Gas Proteica Vegana",
         "descripcion": "El agua proteica se ha llenado de burbujas.",
         "boton": "Agregar al carrito",
-        "precio":"10$"
+        "precio":"11$"
     },
     {
         "id": "Bebidas Proteicos",
@@ -51,7 +51,7 @@
         "cardTitle": "Agua Proteica Vegana",
         "descripcion": "Nuestra fórmula lista para beber.",
         "boton": "Agregar al carrito",
-        "precio":"10$"
+        "precio":"8$"
     },
     {
         "id": "Mantequillas",
@@ -60,7 +60,7 @@
         "cardTitle": "Mantequilla de Cacahuete Natural",
         "descripcion": "Nuestra deliciosa y nutritiva crema para untar.",
         "boton": "Agregar al carrito",
-        "precio":"10$"
+        "precio":"20$"
     },
     {
         "id": "Mantequillas",
@@ -69,7 +69,7 @@
         "cardTitle": "Mantequilla de Cacahuete en Polvo",
         "descripcion": "Date un capricho sin calorías extra con un 70 % menos de grasas.",
         "boton": "Agregar al carrito",
-        "precio":"10$"
+        "precio":"15$"
     },
     {
         "id": "Mantequillas",
@@ -78,7 +78,7 @@
         "cardTitle": "Mantequilla de Almendra Natural",
         "descripcion": "Snack delicioso y nutritivo, rico en proteínas y otras vitaminas esenciales.",
         "boton": "Agregar al carrito",
-        "precio":"10$"
+        "precio":"20$"
     }
     
   ]

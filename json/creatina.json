@@ -6,7 +6,7 @@
       "cardTitle": "Creatina Monohidra",
       "descripcion": "Probado científicamente que potencia tu rendimiento.",
       "boton": "Agregar al carrito",
-      "precio":"10$"
+      "precio":"25$"
     },
     {
         "id": "Polvo",
@@ -15,7 +15,7 @@
         "cardTitle": "Creatina Creapure",
         "descripcion": "Nuestra forma más pura de monohidrato de creatina.",
         "boton": "Agregar al carrito",
-        "precio":"10$"
+        "precio":"30$"
     },
     {
         "id": "Polvo",
@@ -42,7 +42,7 @@
         "cardTitle": "Creatina Micronizada",
         "descripcion": "Nuestras cápsulas de monohidrato  más puras.",
         "boton": "Agregar al carrito",
-        "precio":"10$"
+        "precio":"15$"
     },
     {
         "id": "Capsula",
@@ -51,7 +51,7 @@
         "cardTitle": "Creatina Kre-Alkalyn",
         "descripcion": "Creatina con pH modificado para ayudarte a conseguir tus metas.",
         "boton": "Agregar al carrito",
-        "precio":"10$"
+        "precio":"15$"
     }
     
   ]
