@@ -1,8 +1,8 @@
 [
     {
       "id": "Snacks Proteicos",
-      "imagen": "/img/creatina/snack1.png",
-      "imagesmall": "/img/creatina/snack1small.png",
+      "imagen": "/img/snacks/snack1.png",
+      "imagesmall": "/img/snacks/snack1small.png",
       "cardTitle": "Barrita proteica Layered",
       "descripcion": "Seis capas irresistibles de sabor y textura.",
       "boton": "Agregar al carrito",
@@ -10,8 +10,8 @@
     },
     {
         "id": "Snacks Proteicos",
-        "imagen": "/img/creatina/snack2.png",
-        "imagesmall": "/img/creatina/snack2small.png",
+        "imagen": "/img/snacks/snack2.png",
+        "imagesmall": "/img/snacks/snack2small.png",
         "cardTitle": "Barquillo Proteico",
         "descripcion": "El capricho lleno de proteína más ligero, ideal para cualquier momento del día.",
         "boton": "Agregar al carrito",
@@ -19,8 +19,8 @@
     },
     {
         "id": "Snacks Proteicos",
-        "imagen": "/img/creatina/snack3.png",
-        "imagesmall": "/img/creatina/snack3small.png",
+        "imagen": "/img/snacks/snack3.png",
+        "imagesmall": "/img/snacks/snack3small.png",
         "cardTitle": "Flapjack Proteica",
         "descripcion": "Un capricho de proteína dulce y suave, perfecto para tomar sobre la marcha.",
         "boton": "Agregar al carrito",
@@ -28,8 +28,8 @@
     },
     {
         "id": "Bebidas Proteicos",
-        "imagen": "/img/creatina/bebida1.png",
-        "imagesmall": "/img/creatina/bebida1small.png",
+        "imagen": "/img/snacks/bebida1.png",
+        "imagesmall": "/img/snacks/bebida1small.png",
         "cardTitle": "Clear Protein Water",
         "descripcion": "Elaborado con saborizantes naturales.",
         "boton": "Agregar al carrito",
@@ -37,8 +37,8 @@
     },
     {
         "id": "Bebidas Proteicos",
-        "imagen": "/img/creatina/bebida2.png",
-        "imagesmall": "/img/creatina/bebida2small.png",
+        "imagen": "/img/snacks/bebida2.png",
+        "imagesmall": "/img/snacks/bebida2small.png",
         "cardTitle": "Agua con Gas Proteica Vegana",
         "descripcion": "El agua proteica se ha llenado de burbujas.",
         "boton": "Agregar al carrito",
@@ -46,8 +46,8 @@
     },
     {
         "id": "Bebidas Proteicos",
-        "imagen": "/img/creatina/bebida3.png",
-        "imagesmall": "/img/creatina/bebida3small.png",
+        "imagen": "/img/snacks/bebida3.png",
+        "imagesmall": "/img/snacks/bebida3small.png",
         "cardTitle": "Agua Proteica Vegana",
         "descripcion": "Nuestra fórmula lista para beber.",
         "boton": "Agregar al carrito",
@@ -55,8 +55,8 @@
     },
     {
         "id": "Mantequillas",
-        "imagen": "/img/creatina/mante1.png",
-        "imagesmall": "/img/creatina/mante1small.png",
+        "imagen": "/img/snacks/mante1.png",
+        "imagesmall": "/img/snacks/mante1small.png",
         "cardTitle": "Mantequilla de Cacahuete Natural",
         "descripcion": "Nuestra deliciosa y nutritiva crema para untar.",
         "boton": "Agregar al carrito",
@@ -64,8 +64,8 @@
     },
     {
         "id": "Mantequillas",
-        "imagen": "/img/creatina/mante2.png",
-        "imagesmall": "/img/creatina/mante2small.png",
+        "imagen": "/img/snacks/mante2.png",
+        "imagesmall": "/img/snacks/mante2small.png",
         "cardTitle": "Mantequilla de Cacahuete en Polvo",
         "descripcion": "Date un capricho sin calorías extra con un 70 % menos de grasas.",
         "boton": "Agregar al carrito",
@@ -73,8 +73,8 @@
     },
     {
         "id": "Mantequillas",
-        "imagen": "/img/creatina/mante3.png",
-        "imagesmall": "/img/creatina/mante3small.png",
+        "imagen": "/img/snacks/mante3.png",
+        "imagesmall": "/img/snacks/mante3small.png",
         "cardTitle": "Mantequilla de Almendra Natural",
         "descripcion": "Snack delicioso y nutritivo, rico en proteínas y otras vitaminas esenciales.",
         "boton": "Agregar al carrito",
