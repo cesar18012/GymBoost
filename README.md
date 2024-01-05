@@ -21,7 +21,7 @@ Bienvenido a GymBoost, tu tienda online de confianza para encontrar productos de
 ### Navegación Intuitiva
 
 - Barra de navegación con menús desplegables para encontrar rápidamente secciones de la tienda.
-- Función de búsqueda para encontrar productos por nombre o categoría.
+
 
 ## Tecnologías Utilizadas
 
