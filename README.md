@@ -10,10 +10,7 @@ GymBoost es una tienda en línea especializada en la venta de suplementos deport
 - **json:** Contiene archivos JSON que podrían utilizarse para almacenar información sobre productos, precios, etc.
 - **img:** Guarda las imágenes utilizadas en la tienda.
 
-## Archivos Principales
-- **index.html:** Página principal de la tienda que muestra el catálogo y las secciones destacadas.
-- **carrito.html:** Página que muestra los productos añadidos al carrito de compras.
-- **proteina.html, creatina.html, vitaminas.html, snacks.html:** Páginas específicas para cada categoría de productos.
+
 
 ## Tecnologías Utilizadas
 - HTML
