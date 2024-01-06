@@ -41,15 +41,15 @@ GymBoost es una tienda en línea especializada en la venta de suplementos deport
 ---
 
 ## Archivos HTML:
-- *Index*
-  - Carrusel realizado con BootStrap
+- #Index#
+ -*Carrusel realizado con BootStrap*
     ![image](https://github.com/cesar18012/GymBoost/assets/122441597/ba771932-29c4-4a5c-bf19-f1812e2773f2)
-
-  - Cartas de recomendaciones
+    
+ -*Cartas de recomendaciones*
   - Consta de un contenedor para guardar las cartas y desde el id row1 pintamos las cartas desde el Jquery
     ![image](https://github.com/cesar18012/GymBoost/assets/122441597/ea97b490-b1ca-4580-8be2-685a666fe13f)
 
-
+- #Carrito#
 
 
 ¡Gracias por utilizar GymBoost! Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros.
