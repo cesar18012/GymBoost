@@ -1,42 +1,38 @@
 $(document).ready(function () {
-    var cartasContainer = $("#row1");
-    var carruselContainer = $('.carousel-inner');
-    var cartasData; // Variable para almacenar los datos de las cartas
+    const cartasContainer = $("#row1");
+    const carruselContainer = $('.carousel-inner');
+    let cartasData;
 
     function cargarCarrusel() {
-        $.ajax({
-            url: '../json/imgcarrusel.json',
-            dataType: 'json',
-            success: function (carrusel) {
+        $.getJSON('../json/imgcarrusel.json')
+            .done((carrusel) => {
                 carruselContainer.empty();
-                $.each(carrusel, function (index, img) {
-                    var carruselHTML = `
+                carrusel.forEach((img, index) => {
+                    const carruselHTML = `
                         <div class="carousel-item ${index === 0 ? 'active' : ''}">
                             <img src="${img.imagen}" class="d-block w-100" alt="...">
                         </div>`;
                     carruselContainer.append(carruselHTML);
                 });
-            },
-            error: function (error) {
+            })
+            .fail((error) => {
                 console.error('Error al cargar el archivo JSON para carrusel:', error);
-            }
-        });
+            });
     }
 
     function obtenerRutaImagen(anchoVentana, carta) {
-        // Utilizar la imagen pequeña si el ancho de la ventana es menor a 768
         return anchoVentana < 768 ? carta.imagesmall : carta.imagen;
     }
 
     function cargarCartas() {
         if (cartasContainer.length > 0) {
             cartasContainer.empty();
-            var anchoVentana = $(window).width();
+            const anchoVentana = $(window).width();
 
-            $.each(cartasData, function (index, carta) {
-                var rutaImagen = obtenerRutaImagen(anchoVentana, carta);
+            cartasData.forEach((carta) => {
+                const rutaImagen = obtenerRutaImagen(anchoVentana, carta);
 
-                var cartaHtml = `
+                const cartaHtml = `
                     <div class="col-lg-4 col-md-12">
                         <div class="card text-center border border-primary shadow-0">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
@@ -60,44 +56,32 @@ $(document).ready(function () {
                 cartasContainer.append(cartaHtml);
             });
 
-            // Manejar clic en el botón "Agregar al carrito"
             $('.agregar-al-carrito').on('click', function () {
-                var cardTitle = $(this).data('title');
-                var selectedProduct = cartasData.find(producto => producto.cardTitle === cardTitle);
+                const cardTitle = $(this).data('title');
+                const selectedProduct = cartasData.find(producto => producto.cardTitle === cardTitle);
                 agregarAlCarrito(selectedProduct);
             });
         }
     }
 
     function agregarAlCarrito(producto) {
-        var carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+        const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
         carrito.push(producto);
         localStorage.setItem('carrito', JSON.stringify(carrito));
-        
     }
 
- 
-
-    // Cargar las funciones
     cargarCarrusel();
 
-    // Obtener los datos de las cartas antes de cargarlas
-    $.ajax({
-        url: '../json/cartas.json',
-        dataType: 'json',
-        success: function (data) {
+    $.getJSON('../json/cartas.json')
+        .done((data) => {
             cartasData = data;
-            // Cargar las cartas inicialmente
             cargarCartas();
-        },
-        error: function (error) {
+        })
+        .fail((error) => {
             console.error('Error al cargar el archivo JSON para cartas:', error);
-        }
-    });
+        });
 
-    // Escuchar cambios en el tamaño de la ventana
-    $(window).resize(function () {
-        // Recalcular y actualizar las rutas de las imágenes al cambiar el tamaño de la ventana
+    $(window).resize(() => {
         cargarCartas();
     });
 });

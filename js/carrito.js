@@ -10,7 +10,7 @@ $(document).ready(function () {
         var total = 0; // Variable para calcular el total del carrito
     
         $.each(carrito, function (index, producto) {
-            // Check if producto is not null or undefined and has imagesmall property
+
             if (producto && producto.imagesmall) {
                 var productoHtml = `
                     <div class="producto-en-carrito">
