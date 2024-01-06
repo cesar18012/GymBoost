@@ -64,7 +64,7 @@ Pintamos los porductos que tenemos en nuestro json.
 
 ![image](https://github.com/cesar18012/GymBoost/assets/122441597/7fdc0d05-cbc9-4f87-8768-9e7ad63ac89d)
 
-## Archivos JS:
+##  Explicación archivos JS:
 ## Carrito
 
 # Funcionalidad 
@@ -137,6 +137,25 @@ Este script jQuery se ejecuta cuando el documento está completamente cargado y 
 # Uso
 Este código es esencial para la funcionalidad de la página web, permitiendo a los usuarios explorar productos, filtrar por categoría y agregar productos al carrito de compras.
 
+---
+
+## Estructura para  los archivos JSON
+
+# Estructura del Código JSON de Productos 
+
+# Ejemplo de Producto
+Cada objeto en el conjunto de datos representa un producto. Aquí tienes un ejemplo desglosado:
+
+```json
+{
+ id: Identificación única del producto (ej., "Vitamina C").
+imagen: Ruta de la imagen principal del producto.
+imagesmall: Ruta de la imagen pequeña del producto.
+cardTitle: Título de la tarjeta del producto.
+descripcion: Descripción del producto.
+boton: Etiqueta del botón de acción (ej., "Agregar al carrito").
+precio: Precio del producto.
+}
 
 
 ¡Gracias por utilizar GymBoost! Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros.
