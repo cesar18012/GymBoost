@@ -34,5 +34,6 @@ Bienvenido a GymBoost, tu tienda online de confianza para encontrar productos de
 
 ```bash
 git clone https://github.com/cesar18012/GymBoost.git
+
 cd GymBoost
-# Sigue las instrucciones adicionales según sea necesario
+
