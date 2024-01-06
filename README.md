@@ -160,5 +160,5 @@ boton: Etiqueta del botón de acción (ej., "Agregar al carrito").
 precio: Precio del producto.
 }
 
-
+---
 ¡Gracias por utilizar GymBoost! Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros.
