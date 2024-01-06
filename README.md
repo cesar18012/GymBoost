@@ -141,12 +141,9 @@ Este código es esencial para la funcionalidad de la página web, permitiendo a 
 
 ## Estructura para  los archivos JSON
 
-# Estructura del Código JSON de Productos 
-
 # Ejemplo de Producto
 Cada objeto en el conjunto de datos representa un producto. Aquí tienes un ejemplo desglosado:
 
-```json
 {
  id: Identificación única del producto (ej., "Vitamina C").
 imagen: Ruta de la imagen principal del producto.
