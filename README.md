@@ -90,7 +90,7 @@ Este código se integra en la página `carrito.html` para gestionar de manera di
 
 ![image](https://github.com/cesar18012/GymBoost/assets/122441597/dd5b006f-7fa5-4f94-9640-9659c6780d26)
 
-## Carrito
+## Inicio
 
 # Funcionalidad
 Este script jQuery se ejecuta cuando el documento está completamente cargado y se encarga de dinámicamente cargar cartas de productos y configurar un carrusel de imágenes en una página web.
