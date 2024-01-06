@@ -52,6 +52,7 @@ GymBoost es una tienda en línea especializada en la venta de suplementos deport
 # Carrito
  -*Productos Seleccionados*
   En el id lista-carrito pintamos los porductos seleccionados y el id total-container pintamos la suma del precio de los productos
+  
  ![image](https://github.com/cesar18012/GymBoost/assets/122441597/141b5ec5-227b-4817-a060-248d2bf3f11c)
 
 # Productos (Proteina, Vitaminas, Creatina, Snacks): Son todos iguales
@@ -60,6 +61,7 @@ Tenemos un dropdown que es un desplegable de bootstrap en el que pintamos los ti
 
 -*Cartas*
 Pintamos los porductos que tenemos en nuestro json.
+
 ![image](https://github.com/cesar18012/GymBoost/assets/122441597/7fdc0d05-cbc9-4f87-8768-9e7ad63ac89d)
 
 ## Archivos JS:
@@ -87,6 +89,53 @@ El script utiliza `localStorage` para almacenar y recuperar la información del 
 Este código se integra en la página `carrito.html` para gestionar de manera dinámica la presentación y manipulación de productos en el carrito de compras.
 
 ![image](https://github.com/cesar18012/GymBoost/assets/122441597/dd5b006f-7fa5-4f94-9640-9659c6780d26)
+
+## Carrito
+
+# Funcionalidad
+Este script jQuery se ejecuta cuando el documento está completamente cargado y se encarga de dinámicamente cargar cartas de productos y configurar un carrusel de imágenes en una página web.
+
+# Elementos Clave
+- **cartasContainer**: Contenedor HTML (`<div>`) identificado como `#row1` que almacena y muestra las cartas de productos.
+
+- **carruselContainer**: Contenedor HTML (`<div>`) con la clase `.carousel-inner` donde se insertan dinámicamente las imágenes del carrusel.
+
+- **cartasData**: Variable que almacena los datos de las cartas de productos.
+
+# Funciones Principales
+1. **cargarCarrusel()**: Utiliza Ajax para cargar datos desde un archivo JSON (`imgcarrusel.json`) y configura dinámicamente el carrusel de imágenes.
+
+2. **obtenerRutaImagen(anchoVentana, carta)**: Función que devuelve la ruta de la imagen (normal o pequeña) dependiendo del ancho de la ventana.
+
+3. **cargarCartas()**: Llena dinámicamente el contenedor de cartas (`cartasContainer`) con datos de productos. También gestiona la interacción del usuario, como el clic en "Agregar al Carrito".
+
+4. **agregarAlCarrito(producto)**: Agrega un producto seleccionado al carrito almacenado en el almacenamiento local.
+
+# Almacenamiento Local
+- El código utiliza `localStorage` para almacenar temporalmente productos seleccionados en el carrito.
+
+# Uso
+Este código es esencial para la funcionalidad de la página web, proporcionando una experiencia interactiva al mostrar productos y permitir a los usuarios agregarlos al carrito de compras.
+
+## Productos (Proteina, Vitaminas, Creatina, Snacks)
+
+# Funcionalidad
+Este script jQuery se ejecuta cuando el documento está completamente cargado y se encarga de cargar dinámicamente productos desde un archivo JSON. Permite filtrar los productos por categoría, agregar productos al carrito de compras y visualizar el carrito actualizado.
+
+# Elementos Clave
+- **carrito**: Arreglo que representa el carrito de compras y se inicializa como vacío.
+
+# Funciones Principales
+1. **cargarDatosDesdeJSON()**: Carga datos desde el archivo JSON (`proteina.json`) y llena el menú desplegable con opciones dinámicamente. Además, llama a la función `renderizarProductos` para mostrar inicialmente todos los productos.
+
+2. **renderizarProductos(productos)**: Toma una lista de productos y los muestra en la página. Permite filtrar productos por categoría seleccionada en el menú desplegable.
+
+3. **agregarAlCarrito(producto)**: Agrega un producto al carrito. Verifica si el producto ya está en el carrito y ajusta la cantidad en consecuencia.
+
+4. **cargarCarrito()**: Función que puede ser personalizada para cargar y actualizar la visualización del carrito en la interfaz.
+
+# Uso
+Este código es esencial para la funcionalidad de la página web, permitiendo a los usuarios explorar productos, filtrar por categoría y agregar productos al carrito de compras.
 
 
 
