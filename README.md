@@ -25,8 +25,19 @@ GymBoost es una tienda en línea especializada en la venta de suplementos deport
 ## Colaboradores
 - [César Del Castillo Martín]
 
+## Estructura para todos los archivos HTML
 
+- **Encabezado**
+  - Logotipo
+  - Formulario de búsqueda
+  - Menú desplegable
+  - Ícono de carrito de compras
 
+- **Pie de página**
+  - Redes Sociales
+  - Formulario boletín
+  - Texto descriptivo
+  
 ---
 
 ¡Gracias por utilizar GymBoost! Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros.
