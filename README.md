@@ -139,9 +139,9 @@ Este código es esencial para la funcionalidad de la página web, permitiendo a 
 
 ---
 
-## Estructura para  los archivos JSON
+# Estructura para  los archivos JSON
 
-# Ejemplo de Producto
+## Ejemplo de Producto
 Cada objeto en el conjunto de datos representa un producto. Aquí tienes un ejemplo desglosado:
 
 {
