@@ -50,6 +50,44 @@ GymBoost es una tienda en línea especializada en la venta de suplementos deport
     ![image](https://github.com/cesar18012/GymBoost/assets/122441597/ea97b490-b1ca-4580-8be2-685a666fe13f)
 
 # Carrito
- -*Consta de 2 partes: La lista(Desplegable)*
+ -*Productos Seleccionados*
+  En el id lista-carrito pintamos los porductos seleccionados y el id total-container pintamos la suma del precio de los productos
+ ![image](https://github.com/cesar18012/GymBoost/assets/122441597/141b5ec5-227b-4817-a060-248d2bf3f11c)
+
+# Productos (Proteina, Vitaminas, Creatina, Snacks): Son todos iguales
+-*Desplegable de productos*
+Tenemos un dropdown que es un desplegable de bootstrap en el que pintamos los tipos de porductos que tenemos en el json.
+
+-*Cartas*
+Pintamos los porductos que tenemos en nuestro json.
+![image](https://github.com/cesar18012/GymBoost/assets/122441597/7fdc0d05-cbc9-4f87-8768-9e7ad63ac89d)
+
+## Archivos JS:
+## Carrito
+
+# Funcionalidad 
+Este script jQuery utiliza `$(document).ready()` para asegurarse de que el código se ejecute después de que el DOM esté completamente cargado. Su principal función es gestionar la visualización y funcionalidad del carrito de compras en la página `carrito.html`.
+
+# Elementos Manipulados
+- **carritoContainer**: El contenedor del carrito en la página, identificado como `$("#lista-carrito")`.
+- **totalContainer**: El contenedor del total del carrito, identificado como `$("#total")`.
+
+# Funciones Principales
+- **cargarCarrito()**: Carga y muestra los productos almacenados en el carrito desde el almacenamiento local. Calcula el total del carrito y actualiza la interfaz de usuario en consecuencia. También maneja la lógica para eliminar productos del carrito.
+  
+- **eliminarDelCarrito(productId)**: Elimina un producto específico del carrito según el índice proporcionado. Actualiza el carrito en el almacenamiento local y vuelve a cargar la interfaz del carrito.
+
+# Almacenamiento Local
+El script utiliza `localStorage` para almacenar y recuperar la información del carrito, asegurando que los datos persistan incluso después de recargar la página.
+
+# Eventos
+- Se utiliza el evento `click` en los botones "Eliminar" dentro de la lista de productos en el carrito para invocar la función `eliminarDelCarrito(productId)`.
+
+# Uso
+Este código se integra en la página `carrito.html` para gestionar de manera dinámica la presentación y manipulación de productos en el carrito de compras.
+
+![image](https://github.com/cesar18012/GymBoost/assets/122441597/dd5b006f-7fa5-4f94-9640-9659c6780d26)
+
+
 
 ¡Gracias por utilizar GymBoost! Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros.
