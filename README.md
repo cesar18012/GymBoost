@@ -146,11 +146,17 @@ Cada objeto en el conjunto de datos representa un producto. Aquí tienes un ejem
 
 {
  id: Identificación única del producto (ej., "Vitamina C").
+ 
 imagen: Ruta de la imagen principal del producto.
+
 imagesmall: Ruta de la imagen pequeña del producto.
+
 cardTitle: Título de la tarjeta del producto.
+
 descripcion: Descripción del producto.
+
 boton: Etiqueta del botón de acción (ej., "Agregar al carrito").
+
 precio: Precio del producto.
 }
 
