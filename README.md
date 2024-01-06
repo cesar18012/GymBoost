@@ -50,6 +50,6 @@ GymBoost es una tienda en línea especializada en la venta de suplementos deport
     ![image](https://github.com/cesar18012/GymBoost/assets/122441597/ea97b490-b1ca-4580-8be2-685a666fe13f)
 
 # Carrito
-
+ -*Consta de 2 partes: La lista(Desplegable)*
 
 ¡Gracias por utilizar GymBoost! Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros.
