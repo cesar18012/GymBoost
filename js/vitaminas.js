@@ -103,10 +103,7 @@ $(document).ready(function () {
       localStorage.setItem('carrito', JSON.stringify(carrito));
   }
   
-    // Función para cargar y actualizar la visualización del carrito
-    function cargarCarrito() {
-        // Aquí puedes agregar la lógica para mostrar el contenido del carrito en la interfaz.
-        // Puedes acceder al carrito desde la variable "carrito".
-    }
+    
+    
   });
   
